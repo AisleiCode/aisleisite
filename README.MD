@@ -2,18 +2,19 @@
 
 ## Project Structure
 
+```text
 solana-trading-demo/
 ├── src/
-│ ├── solana/
-│ │ ├── config.js # Solana Configuration (Network, Connection, Wallet)
-│ │ ├── WalletContext.jsx # Wallet State Management
-│ │ └── transactions.js # Transaction-related Functions
-│ ├── components/
-│ │ ├── WalletButton.jsx # Wallet Connection Button
-│ │ ├── TransferForm.jsx # SOL Transfer Form
-│ │ └── TransactionHistory.jsx # Transaction History
-│ ├── App.jsx # Main Application
-│ └── App.css / index.css # Styles
+│   ├── solana/
+│   │   ├── config.js          # Solana Configuration (Network, Connection, Wallet)
+│   │   ├── WalletContext.jsx  # Wallet State Management
+│   │   └── transactions.js    # Transaction-related Functions
+│   ├── components/
+│   │   ├── WalletButton.jsx   # Wallet Connection Button
+│   │   ├── TransferForm.jsx   # SOL Transfer Form
+│   │   └── TransactionHistory.jsx  # Transaction History
+│   ├── App.jsx                # Main Application
+│   └── App.css / index.css    # Styles
 └── package.json
 
 
